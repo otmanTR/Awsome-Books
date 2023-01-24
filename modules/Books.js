@@ -1,9 +1,9 @@
-
 const listBooks = document.querySelector('.bookList');
 const form = document.querySelector('.formInput');
 const [title, author] = form.elements;
 
 const inputBook = {};
+// eslint-disable-next-line import/no-mutable-exports
 let books = new Array(0);
 
 // Storage
@@ -84,7 +84,7 @@ form.addEventListener('submit', (e) => {
 
 Book.displayBooks();
 populateFields();
-;
+
 export {
-    inputBook, books, populateFields, Book
+  inputBook, books, populateFields, Book,
 };

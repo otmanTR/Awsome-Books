@@ -25,5 +25,5 @@ navContact.addEventListener('click', () => {
 });
 
 export {
-    contact, navList, navAdd, navContact, infoPage, addBookPage
+  contact, navList, navAdd, navContact, infoPage, addBookPage,
 };
