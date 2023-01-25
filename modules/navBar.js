@@ -23,7 +23,3 @@ navContact.addEventListener('click', () => {
   addBookPage.classList.add('close');
   contact.classList.remove('close');
 });
-
-export {
-  contact, navList, navAdd, navContact, infoPage, addBookPage,
-};

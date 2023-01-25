@@ -84,7 +84,3 @@ form.addEventListener('submit', (e) => {
 
 Book.displayBooks();
 populateFields();
-
-export {
-  inputBook, books, populateFields, Book,
-};
